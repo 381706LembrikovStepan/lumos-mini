@@ -13,9 +13,11 @@ void main()
 	int a;
 	int *A;
 	FILE *f = 0;
-	FILE *l = 0;
+	FILE *vozr = 0;
+	FILE *ubiv = 0;
 	f = fopen("..\\Lumus_mini\\vxodnie_dannie.txt", "r");
-	l = fopen("..\\Lumus_mini\\vixodnie_dannie.txt", "w");
+	vozr = fopen("..\\Lumus_mini\\Vozr.txt", "w");
+	ubiv = fopen("..\\Lumus_mini\\Ubiv.txt", "w");
 	fscanf(f, "%d \n", &razmer);
 	A = new int[razmer];
 	for (i = 0; i<razmer; i++)
@@ -29,10 +31,23 @@ void main()
 				A[i] = A[j];
 				A[j] = a;
 			}
-	fprintf(l, "%d \n", razmer);
+	fprintf(vozr, "%d \n", razmer);
+	for (i = 0; i < razmer; i++)
+	{
+		fprintf(vozr, "%d \t", A[i]);
+	}
+	for (i = 0; i < razmer - 1; i++)
+		for (j = i + 1; j < razmer; j++)
+			if (A[i]<A[j])
+			{
+				a = A[i];
+				A[i] = A[j];
+				A[j] = a;
+			}
+	fprintf(ubiv, "%d \n", razmer);
 	for ( i = 0; i < razmer; i++)
 	{
-		fprintf(l, "%d \t", A[i]);
+		fprintf(ubiv, "%d \t", A[i]);
 	}
 		cout << A[0] << "\n";
 	//fprintf(f, "%d /n", i);
