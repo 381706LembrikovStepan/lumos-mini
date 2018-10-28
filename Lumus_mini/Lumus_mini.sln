@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lumus_mini", "Lumus_mini\Lumus_mini.vcxproj", "{1B50B650-8A21-4618-B670-004C356FFC45}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cheker", "cheker\cheker.vcxproj", "{68F58AF9-1213-45A5-A1F4-44AF93B4F4D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B50B650-8A21-4618-B670-004C356FFC45}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1B50B650-8A21-4618-B670-004C356FFC45}.Debug|Win32.Build.0 = Debug|Win32
+		{1B50B650-8A21-4618-B670-004C356FFC45}.Release|Win32.ActiveCfg = Release|Win32
+		{1B50B650-8A21-4618-B670-004C356FFC45}.Release|Win32.Build.0 = Release|Win32
+		{68F58AF9-1213-45A5-A1F4-44AF93B4F4D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{68F58AF9-1213-45A5-A1F4-44AF93B4F4D9}.Debug|Win32.Build.0 = Debug|Win32
+		{68F58AF9-1213-45A5-A1F4-44AF93B4F4D9}.Release|Win32.ActiveCfg = Release|Win32
+		{68F58AF9-1213-45A5-A1F4-44AF93B4F4D9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
