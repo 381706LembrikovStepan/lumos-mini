@@ -26,9 +26,9 @@ void main()
 		if (A[i] > A[i + 1])
 			a = 1;
 	if (a == 1)
-		fprintf(l, "программа сортирует массив по возрастанию не верно\n");
+		fprintf(l, "0\n");
 	else
-		fprintf(l, "программа сортирует массив по возрастанию верно\n");
+		fprintf(l, "1\n");
 	a = 0;
 	fscanf(ubiv, "%d \n", &razmer);
 	for (i = 0; i < razmer; i++)
@@ -37,7 +37,7 @@ void main()
 		if (A[i] < A[i + 1])
 			a = 1;
 	if (a == 1)
-		fprintf(l, "программа сортирует массив по убыванию не верно\n");
+		fprintf(l, "0\n");
 	else
-		fprintf(l, "программа сортирует массив по убыванию верно\n");
+		fprintf(l, "1\n");
 }
